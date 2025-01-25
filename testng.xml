@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="learnTestNG.TestCaseExecutionWithPreAndPostCondition"/>
+      <class name="boards.info.trello.testcases.MyFirstScript"/>
+      <class name="learnTestNG.Assertions"/>
+      <class name="learnTestNG.ModualName"/>
+      <class name="learnTestNG.PreAndPostCondition"/>
+      <class name="test.testNg"/>
+      <class name="learnTestNG.dependsOnGroups"/>
+      <class name="DataDrivenTesting.StoreAndUseDataInsideSameClass"/>
+      <class name="DataDrivenTesting.FunctionalTestingOnDropdown"/>
+      <class name="learnTestNG.classB"/>
+      <class name="DataDrivenTesting.facebookSignupByDataProvider"/>
+      <class name="learnTestNG.classC"/>
+      <class name="boards.info.trello.testcases.TestCaseSample"/>
+      <class name="learnTestNG.KGF"/>
+      <class name="learnTestNG.dependsOnMethods"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

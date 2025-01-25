@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FullRegressionTestSuit]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="RegressionTesting(failed)">
+    <classes>
+      <class name="learnTestNG.TestCaseExecutionWithPreAndPostCondition">
+        <methods>
+          <include name="clickOnCallsTask"/>
+          <include name="PostCondition"/>
+          <include name="PreCondition"/>
+          <include name="searchForTask"/>
+        </methods>
+      </class> <!-- learnTestNG.TestCaseExecutionWithPreAndPostCondition -->
+    </classes>
+  </test> <!-- RegressionTesting(failed) -->
+</suite> <!-- Failed suite [FullRegressionTestSuit] -->
